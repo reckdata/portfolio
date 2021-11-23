@@ -331,7 +331,7 @@
         transform: rotate(-45deg) scale(0.87);
         margin-top: 22px;;
     }
-    .menu-icon.hover .navigation {
+    .menu-icon.hover .navigation:before {
     	height: 50px;
     	display:flex;
     	flex-direction: row;
