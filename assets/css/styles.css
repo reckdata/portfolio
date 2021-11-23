@@ -231,7 +231,7 @@
     .navbar {
         width: 100%;
         display: inline-flex;
-        height: 80px;
+        height: 50px;
         justify-content: space-between;
         align-items: center;
         position: sticky;
@@ -330,6 +330,9 @@
         -webkit-transform: rotate(-45deg) scale(0.87);
         transform: rotate(-45deg) scale(0.87);
         margin-top: 22px;;
+    }
+    .menu-icon.hover .navigation {
+    	height: 50px;
     }
     
     #home {
