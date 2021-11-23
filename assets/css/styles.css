@@ -89,7 +89,7 @@
 .profile-image{
     height: 250px;
     width: 250px;
-    background-image: url("../img/profile.png");
+    background-image: url("../img/profile.jpg");
     background-size: 250px 250px;
     margin: auto;
     border-radius: 50%;
@@ -333,6 +333,8 @@
     }
     .menu-icon.hover .navigation {
     	height: 50px;
+    	display:flex;
+    	flex-direction: row;
     }
     
     #home {
