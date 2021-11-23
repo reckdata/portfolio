@@ -534,7 +534,7 @@
     /* To be overwritten by proceeding styles */
     
     #home {
-        height: 500px;
+        height: 600px;
         background-image: url("../img/83838296.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
