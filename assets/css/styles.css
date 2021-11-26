@@ -43,6 +43,9 @@
     justify-content: center;
     text-align: center;
 }
+#home p {
+    color: gainsboro;
+}
 #about {
     display: flex;
     flex-direction: column;
@@ -244,15 +247,9 @@
         justify-content: center;
         text-align: center;
         height: auto;
+        z-index: 2;
     }
-    /* .menu-icon.hover #menu {
-        background-color: antiquewhite;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-     */
+    
     #menu .nav-item {
         flex-basis: 0;
         flex-grow: 1;
