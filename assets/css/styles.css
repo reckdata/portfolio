@@ -89,7 +89,7 @@
 .profile-image{
     height: 250px;
     width: 250px;
-    background-image: url("../img/profile.jpg");
+    background-image: url("../img/profile.webp");
     background-size: 250px 250px;
     margin: auto;
     border-radius: 50%;
@@ -158,10 +158,10 @@
     border-radius: 10px;
 }
 /* Background Images for the projects */
-.card1 {background-image: url("../img/data-analysis.jpeg"); background-size: 100% 100%;}
-.card2 {background-image: url("../img/icons/journal-catalogue.png"); background-size: 100% 100%;}
-.card3 {background-image: url("../img/icons/acca-study-planner.jpg"); background-size: 100% 100%;}
-.card4{background-image: url("../img/machine-learning.png"); background-size: 100% 100%;}
+.card1 {background-image: url("../img/data-analysis.webp"); background-size: 100% 100%;}
+.card2 {background-image: url("../img/icons/journal-catalogue.webp"); background-size: 100% 100%;}
+.card3 {background-image: url("../img/icons/acca-study-planner.webp"); background-size: 100% 100%;}
+.card4{background-image: url("../img/machine-learning.webp"); background-size: 100% 100%;}
 
 .footer {
     width: 100%;
@@ -237,13 +237,22 @@
         position: sticky;
         top: 0;
     }
+    
     #menu {
         width: 100%;
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        height: auto;
     }
-    
+    /* .menu-icon.hover #menu {
+        background-color: antiquewhite;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+     */
     #menu .nav-item {
         flex-basis: 0;
         flex-grow: 1;
@@ -276,13 +285,10 @@
         height: 100%;
         opacity: 1;
         -webkit-transition: all 0.5s;
-        transition: all 0.9s;
+        transition: all 0.5s;
     }
 
-    /* .nav-item:hover .nav-item-link:before{
-        
-    } */
-
+   
     /* Menu Icon Design*/
     .menu-icon{
         width: 30px;
@@ -331,15 +337,11 @@
         transform: rotate(-45deg) scale(0.87);
         margin-top: 22px;;
     }
-    .menu-icon.hover .navigation:before {
-    	height: 50px;
-    	display:flex;
-    	flex-direction: row;
-    }
+    
     
     #home {
         height: 400px;
-        background-image: url("../../assets/img/wd1.jpeg");
+        background-image: url("../../assets/img/wd1.webp");
     }
 
     #home a {
@@ -404,10 +406,13 @@
         margin-bottom: 10px;
         border-radius: 10px;
     }
-
+    #contacts .socialmedia {
+        display: flex;
+        flex-wrap: wrap;
+    }
     #contacts .socialmedia img {
-        height: 50px;
-        width: 50px;
+        height: 35px;
+        width: 35px;
         border-radius: 50%;
         padding: 2.5px;
         margin: 5px;
@@ -446,7 +451,7 @@
     }
     #home {
         height: 500px;
-        background-image: url("../img/83838296.jpeg");
+        background-image: url("../img/83838296.webp");
         background-size: cover;
         background-repeat: no-repeat;
         align-items: center;
@@ -540,7 +545,7 @@
     
     #home {
         height: 600px;
-        background-image: url("../img/83838296.jpeg");
+        background-image: url("../img/83838296.webp");
         background-size: cover;
         background-repeat: no-repeat;
         align-items: center;
